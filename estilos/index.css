@@ -1,0 +1,73 @@
+:root {
+    /* Cores */
+    --cor-titulo: #8b4513; /* Marrom escuro para um toque retro */
+    --cor-subtitulo: #4b4b4b; /* Cinza escuro para subtítulos */
+    --cor-conteudo: #444343; /* Cinza médio para o conteúdo */
+    --cor-descricao: #a0a0a0; /* Cinza claro para descrições */
+    --cor-branco: #ffffff;
+
+    /* Cores elementos */
+    --cor-fundo: #f2e9d2; /* Amarelo pálido para o fundo */
+    --cor-borda: #d9d9d9; /* Cinza claro para bordas */
+    --cor-link: #bf5f00; /* Laranja escuro para links */
+    --cor-link-hover: #8c4700; /* Laranja mais escuro para hover dos links */
+
+    /* Tamanhos */
+    --tam-titulo: 1.8em;
+    --tam-subtitulo: 1.4em;
+    --tam-fonte: 1.2em;
+    --tam-descricao: 0.9em; 
+
+    /* Tipos de fontes */
+    --fonte: 'Georgia', serif; /* Fonte serifada para um toque clássico */
+    --fonte-serif: 'Noto Serif', serif;
+}
+
+.perfil {
+    width: 50%;
+    padding: 2%;
+}
+
+.img-perfil {
+    display: flex;
+    border-radius: 50%;
+    width: 200px;
+    padding: 2%;
+}
+
+.box-sobre {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid var(--cor-navegacao);
+    margin: 1%;
+}
+
+.box-sobre div {
+    margin: 1%;
+}
+
+.nome {
+    font-style: normal;
+    color: var(--cor-salmao);
+    font-size: 2em;
+    text-align: center;
+}
+
+span {
+    color: var(--cor-destaques);
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: var(--tam-descricao);
+    padding: 1%;
+    text-align: justify;
+}
+
+embed {
+    width: 100%;
+    height: 500px;
+    border: 3px solid var(--cor-azul-claro);
+    box-shadow: var(--cor-preto) 0 0 10px;
+    border-radius: 10px;
+}

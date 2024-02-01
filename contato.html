@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+    <link rel="stylesheet" href="./estilos/principal.css">
+    <link rel="stylesheet" href="./estilos/contato.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./portifolio.html" target="_blank"> Portifólio </a> </li>
+                <li><a href="./skills.html" target="_blank"> Skills </a> </li>
+                <li><a class="logo" href="./index.html" target="_blank">
+                    <img class="logo" src="./imagens/logo.png" alt="logo"> </a> </li>
+                <li><a href="./cursos.html" target="_blank"> Cursos Tech </a> </li>
+                <li><a href="./contato.html" target="_blank"> Contato </a> </li>
+            </ul>
+        </nav>       
+    </header>
+
+    <section class="contato">
+        <h1>Meus Contatos</h1><br>
+            <a href="https://www.linkedin.com/in/mariana-eslava-4a2bb6159/" target="_blank"> 
+            <img class="contato-img" src="./imagens/linkedin.png" alt="img-linkedin"> </a>
+
+            <a href="https://github.com/umanormari" target="_blank">
+            <img class="contato-img" src="./imagens/github.png" alt="img-Github"> </a>
+
+            <a href="mailto:marigeo369@gmail.com">
+            <img class="contato-img" src="./imagens/e-mail.png" alt="img-email">
+    </section>
+
+    <section class="formulario">
+        <h1>Formulário de Contato</h1>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2023 - Desenvolvido por Mariana Eslava </p>
+    </footer>
+    <script src="./js/contato.js"></script>
+</body>
+</html>

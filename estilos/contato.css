@@ -1,0 +1,63 @@
+:root {
+    /* Cores */
+    --cor-titulo: #8b4513; /* Marrom escuro para um toque retro */
+    --cor-subtitulo: #4b4b4b; /* Cinza escuro para subtítulos */
+    --cor-conteudo: #444343; /* Cinza médio para o conteúdo */
+    --cor-descricao: #a0a0a0; /* Cinza claro para descrições */
+    --cor-branco: #ffffff;
+
+    /* Cores elementos */
+    --cor-fundo: #f2e9d2; /* Amarelo pálido para o fundo */
+    --cor-borda: #d9d9d9; /* Cinza claro para bordas */
+    --cor-link: #bf5f00; /* Laranja escuro para links */
+    --cor-link-hover: #8c4700; /* Laranja mais escuro para hover dos links */
+
+    /* Tamanhos */
+    --tam-titulo: 1.8em;
+    --tam-subtitulo: 1.4em;
+    --tam-fonte: 1.2em;
+    --tam-descricao: 0.9em; 
+
+    /* Tipos de fontes */
+    --fonte: 'Georgia', serif; /* Fonte serifada para um toque clássico */
+    --fonte-serif: 'Noto Serif', serif;
+}
+
+img {
+    width: 10%;
+    cursor: pointer;
+}
+
+.contato {
+    display: block;
+    max-width: 800px;
+    padding: 2% 5% 2% 5%;
+    margin-bottom: 2%;
+    border: 3px solid var(--cor-navegacao);
+    text-align: center;
+}
+
+.formulario {
+    display: block;
+    max-width: 800px;
+    text-align: left;
+    padding: 2% 5% 2% 5%;
+    border: 3px solid var(--cor-navegacao);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.contato-img {
+    margin: 2% 10% 2% 10%;
+}

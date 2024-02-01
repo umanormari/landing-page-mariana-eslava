@@ -1,0 +1,74 @@
+:root {
+    /* Cores */
+    --cor-titulo: #8b4513; /* Marrom escuro para um toque retro */
+    --cor-subtitulo: #4b4b4b; /* Cinza escuro para subtítulos */
+    --cor-conteudo: #444343; /* Cinza médio para o conteúdo */
+    --cor-descricao: #a0a0a0; /* Cinza claro para descrições */
+    --cor-branco: #ffffff;
+
+    /* Cores elementos */
+    --cor-fundo: #f2e9d2; /* Amarelo pálido para o fundo */
+    --cor-borda: #d9d9d9; /* Cinza claro para bordas */
+    --cor-link: #bf5f00; /* Laranja escuro para links */
+    --cor-link-hover: #8c4700; /* Laranja mais escuro para hover dos links */
+
+    /* Tamanhos */
+    --tam-titulo: 1.8em;
+    --tam-subtitulo: 1.4em;
+    --tam-fonte: 1.2em;
+    --tam-descricao: 0.9em; 
+
+    /* Tipos de fontes */
+    --fonte: 'Georgia', serif; /* Fonte serifada para um toque clássico */
+    --fonte-serif: 'Noto Serif', serif;
+}
+
+img {
+    width: 600px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+    
+.hidden {
+    display: none;
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-preto);
+    font-size: var(--tam-descricao);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+}
+    
+.iceberg  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+}
+    
+.balao {
+    position: relative; 
+    display: inline-block;
+}
+
+a {
+    color: var(--cor-subtitulo);
+}
+    
+/* b1 - Web Development | b2 - Programming Languages | b3 - Inglês | b4 - Database Management | b5 - Version Control | b6 - Comunicação | b7 - Trabalho em Equipe | b8 - Resolução de Problemas | b9 - Gerenciamento de Tempo | b10 - Adaptabilidade */
+    
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10 {
+    position: absolute; z-index: 2;
+}
+
+.b1 {top: 42%; right: 60%;}
+.b2 {top: 30%; right: 55%;}
+.b3 {top: 20%;}
+.b4 {top: 30%; left: 55%;}
+.b5 {top: 42%; left: 60%;}
+.b6 {bottom: 35%; right: 60%;}
+.b7 {bottom: 23%; right: 55%;}
+.b8 {bottom: 12%;}
+.b9 {bottom: 23%; left: 55%;}
+.b10 {bottom: 35%; left: 60%;}
