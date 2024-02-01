@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let img_id = 0;
     const myImg = document.getElementById('myImg');
-    const all_imgs = ["//imagens/iceberg2.png", "/imagens/iceberg-skills.png"];
+    const all_imgs = ["/imagens/iceberg2.png", "/imagens/iceberg-skills.png"];
 
     if (myImg) {
         myImg.addEventListener('click', updateImg);
